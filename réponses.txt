@@ -1,0 +1,64 @@
+-------------------------Etape 1 : Quizz :
+
+A quoi sert console.log ?
+-Pour afficher des informations pendant l'exécution de votre script : l'utilisateur ne verra rien et ne sera pas bloqué.
+
+A quoi sert var ?
+-L'instruction var (pour variable) permet de déclarer une variable et éventuellement d'initialiser sa valeur.
+
+Quelle est la différence avec const et let ?
+var : On déclare une variable, éventuellement en initialisant sa valeur.
+let : On déclare une variable dont la portée est celle du bloc courant, éventuellement en initialisant sa valeur.
+const : On déclare une constante nommée, dont la portée est celle du bloc courant, accessible en lecture seule.
+
+Comment définir une fonction en JS ?
+- function maFonction(monObjet) {
+}
+
+Quelle est la nouvelle syntaxe ?
+-Le ECMAScript 6
+
+A quoi sert document ?
+-L'interface Document représente n'importe quelle page Web chargée dans le navigateur et sert de point d'entrée dans le contenu de la page Web, qui est l'arborescence DOM
+
+Quelle est la différence avec window ?
+-Document.defaultView   :   Renvoie une référence à l'objet window.
+
+A quoi sert querySelector ?
+-La méthode querySelector() de l'interface Document retourne le premier Element dans le document correspondant au sélecteur - ou groupe de sélecteurs - spécifié(s), ou null si aucune correspondance n'est trouvée.
+
+Quelle est la différence avec getElementById et querySelectorAll ?
+-La méthode querySelectorAll()  de Element renvoie une NodeList statique représentant une liste des éléments du document qui correspondent au groupe de sélecteurs spécifiés
+La méthode getElementById() de Document renvoie un objet  Element représentant l'élément dont la propriété  id correspond à la chaîne de caractères spécifiée. Étant donné que les ID d'élément doivent être uniques, s'ils sont spécifiés, ils constituent un moyen utile d'accéder rapidement à un élément spécifique.
+
+A quoi sert addEventListener ?
+-La méthode addEventListener() d'EventTarget met en place une fonction à appeler chaque fois que l'événement spécifié est remis à la cible. Les cibles courantes sont un Element, le Document lui-même et une Window, mais elle peut être tout objet prenant en charge les évènements (comme XMLHttpRequest).
+
+Siter d'autre events pouvant être écoutés ?
+click, input, select ...
+
+A quoi sert innerText ?
+-La propriété innerText permet d'accéder au contenu au format text de l'élément, c'est-à-dire sans les balises HTML que contiendrait innerHTML.
+
+Quel est la différence avec innerHTML et InsertAdjacentHTML ?
+-insertAdjacentHTML() analyse le texte spécifié en tant que HTML ou XML et insère les noeuds résultants dans le DOM à la position spécifiée
+La propriété Element.innerHTML de Element récupère ou définit la syntaxe HTML décrivant les descendants de l'élément.
+
+Qu'est que la concatenation ?
+-Le terme "concaténer" signifie joindre deux chaînes bout à bout pour n'en former qu'une seule.
+var chaine1 = "Bonjour ";
+var chaine2 = "tout le monde";
+var chaine3 = chaine1+chaine2;
+
+Quelle est la différence avec l'interpolation ?
+-L’interpolation est une syntaxe qu’on peut utiliser dans un template de composant Angular et qui permet d’afficher du texte dynamiquement.
+
+Siter la methode qui permet de faire une itération ( elle n'est pas dans le programme )
+-L'instruction for
+L'instruction do...while
+L'instruction while
+L'instruction label
+L'instruction break
+L'instruction continue
+L'instruction for...in
+L'instruction for...of
